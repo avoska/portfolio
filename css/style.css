@@ -1,0 +1,70 @@
+.btn{
+	border-radius: 0;
+}
+.btn_margin_text{
+	margin-top: 1vh ;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+.well_1{
+	background-color: transparent;
+	border-radius: 0;
+	border-width: 4px;
+	border-color: #ff4c29;
+}
+.simple_color{
+	margin-top: 2vh;
+	background-color: #ff4c29;
+	border-color: transparent;
+}
+.simple_color:hover{
+	background-color: #e20600;
+	border-color: transparent;
+}
+.well_2{
+	background-color: transparent;
+	border-radius: 0;
+	border-width: 4px;
+	border-color: #f4ee27;
+}
+.jquery_color{
+	color: #f4ee27;
+}
+.jquery_bg_color{
+	margin-top: 2vh;
+	background-color: #f4ee27;
+	border-color: transparent;
+}
+
+.jquery_bg_color:hover{
+	background-color: #f3dc20;
+	border-color: transparent;
+}
+.well_3{
+	background-color: transparent;
+	border-radius: 0;
+	border-width: 4px;
+	border-color: #3bf34a;
+}
+.latest_color{
+	color: #3bf34a;
+}
+.latest_bg_color{
+	margin-top: 2vh;
+	background-color: #3bf34a;
+	border-color: transparent;
+}
+.well_4{
+	background-color: transparent;
+	border-radius: 0;
+	border-width: 4px;
+	border-color: #2aabd2;
+}
+.adaptation_color{
+	color: #2aabd2;
+}
+.adaptation_bg_color{
+	margin-top: 2vh;
+	background-color: #2aabd2;
+	border-color: transparent;
+}
