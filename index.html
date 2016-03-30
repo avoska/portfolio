@@ -42,10 +42,11 @@
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="well well_3" align="center">
                     <p class="header_text"><b><span class="latest_color">Последние</span> работы: </b></p>
-                    <a href="http://avoska.github.io/hotel/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text">Hotel</p></span></a>
-                    <a href="http://avoska.github.io/calculator/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text">Calculator</p></span></a>
-                    <a href="http://avoska.github.io/metall/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text">Metall</p></span></a>
-                    <a href="http://avoska.github.io/sakura/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text">Sakura</p></span></a>
+                    <a href="http://avoska.github.io/hotel/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text" data-toggle="tooltip" data-placement="top" title="Последняя работа ->">Hotel</p></span></a>
+                    <a href="http://avoska.github.io/calculator/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text" data-toggle="tooltip" data-placement="top" title="Последняя работа ->">Calculator</p></span></a>
+                    <a href="http://avoska.github.io/metall/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text" data-toggle="tooltip" data-placement="top" title="Последняя работа ->">Metall</p></span></a>
+                    <a href="http://avoska.github.io/astral/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text" data-toggle="tooltip" data-placement="top" title="Последняя работа ->">Астролог</p></span></a>
+                    <a href="http://avoska.github.io/megamag/"><span class="btn btn-success latest_bg_color"><p class="btn_margin_text" data-toggle="tooltip" data-placement="top" title="Последняя работа">Биржа валют</p></span></a>
                 </div>
             </div>
 
@@ -57,10 +58,22 @@
                             <a href="http://avoska.github.io/calculator/"><span class="btn btn-success adaptation_bg_color"><p class="btn_margin_text">Caculator</p></span></a>
                         </div>
                     </div>
+                    <div class="col-xs-6">
+                        <div class="well well_5" align="center">
+                            <p class="header_text"><b><span class="small_color">Мелкие</span> работы: </b></p>
+                            <a href="http://avoska.github.io/calculator/"><span class="btn btn-success small_bg_color"><p class="btn_margin_text">Отзыв</p></span></a>
+                            <a href="http://avoska.github.io/latvia/"><span class="btn btn-success small_bg_color"><p class="btn_margin_text">Регистрация</p></span></a>
+                        </div>
+                    </div>
 
                 </div>
     </div>
 </section>
+<script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 
 
 <script src="js/bootstrap.min.js"></script>
